@@ -26,7 +26,7 @@ There are two types of overloading
         }
         */
     ->Friend Fn
-        //friend returntype operator op(argument ,agrument)
+        //friend returntype operator op(with 2 argument)
 
 
 NOTE: Any operator can be overloaded except Scope resolution operator (::),
