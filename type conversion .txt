@@ -1,0 +1,14 @@
+Conversion of a data type 
+for example int a -> char a
+
+Types of data conersion:
+        ->Implicit
+            : Conversion of data done by machine itself in run-time
+        ->Explicit
+            : Conversion of data performed by the user intentionally
+              at the time of runtime
+
+
+
+
+NOTE: 

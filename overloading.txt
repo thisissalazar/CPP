@@ -1,0 +1,33 @@
+There are two types of overloading
+    ->Fuction Overloading
+    ->Operator Overloading
+
+
+*Operator Overloading*
+->Unary Operator
+    ->Class Fn
+        /*class name
+            {
+                returntype operator op()
+                //no argument
+            };
+        */     
+    ->Friend Fn
+        /*        friend returntype operator op(argument list)
+                //single argument
+        */
+
+->Binary Operator
+    ->Class Fn
+        /*class name
+        {
+            returntype operator op(argument list)
+            //single argument
+        }
+        */
+    ->Friend Fn
+        //friend returntype operator op(argument ,agrument)
+
+
+NOTE: Any operator can be overloaded except Scope resolution operator (::),
+      sizeof() operator and condition operator
